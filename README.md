@@ -1,2 +1,2 @@
 # Countdown
- Just a countdown
+ Just a countdown timer
