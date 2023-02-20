@@ -1,25 +1,31 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
-div{
-    text-align: center;
-     margin: 17%;
-    }
-    button{
-      margin: 5px 5px 20px 10px;
-      
-    }
+html {
+    background-color: black;
+    overflow: auto;
+}
 
-    h3{
-      color: white;
-      font-size: 25px;
-      margin-bottom: 50px;
-     
-    }
+#container {
+    width: 100vw;
+    height: 100vh;
 
-    
-    html{
-      background-color: black;
-      overflow: hidden;
-  }   
+}
 
- 
+#box {
+
+    width: 100vw;
+    height: 100vh;
+    min-width: 320px;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+}
+
+.label {
+    width: 100%;
+}
+
+.input {
+    width: 80%;
+    max-width: 930px;
+}
